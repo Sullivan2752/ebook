@@ -41,26 +41,12 @@
             </section>
             <section id="purchase-section">
                 <h2>Achetez Votre Exemplaire</h2>
-                <p class="price">Prix : 10,00 €</p>
-                <div id="paypal-container-LRXR8LL8SVGZC"></div>
+                <p class="price">Prix : 5.00 €</p>
+                <div id="paypal-container-DA8AGWTVBS8Q8"></div>
                 <script>
                   paypal.HostedButtons({
-                    hostedButtonId: "LRXR8LL8SVGZC",
-                    createOrder: function(data, actions) {
-                      return actions.order.create({
-                        purchase_units: [{
-                          amount: {
-                            value: '10.00'
-                          }
-                        }]
-                      });
-                    },
-                    onApprove: function(data, actions) {
-                      return actions.order.capture().then(function(details) {
-                        alert('Transaction completed by ' + details.payer.name.given_name);
-                      });
-                    }
-                  }).render("#paypal-container-LRXR8LL8SVGZC");
+                    hostedButtonId: "DA8AGWTVBS8Q8",
+                  }).render("#paypal-container-DA8AGWTVBS8Q8");
                 </script>
             </section>
         </div>

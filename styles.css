@@ -88,7 +88,7 @@ p {
     margin-bottom: 20px;
 }
 
-#paypal-container-LRXR8LL8SVGZC {
+#paypal-container-DA8AGWTVBS8Q8 {
     text-align: center;
     width: 100%;
     display: flex;
@@ -97,7 +97,7 @@ p {
     flex-direction: column;
 }
 
-#paypal-container-TE4WLG7VW3WWE iframe {
+#paypal-container-DA8AGWTVBS8Q8 iframe {
     max-width: 300px; /* Adjust the width as needed */
     width: 100%;
 }
