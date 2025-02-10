@@ -26,6 +26,9 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 header h1, header p {
@@ -33,13 +36,14 @@ header h1, header p {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     max-width: 1200px;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 h1, h2 {
@@ -50,6 +54,7 @@ h1, h2 {
 
 p {
     text-align: center;
+    word-wrap: break-word;
 }
 
 #ebook-description, #purchase-section, #additional-info, #testimonials, #features {
@@ -85,6 +90,16 @@ p {
 
 #paypal-container-TE4WLG7VW3WWE {
     text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#paypal-container-TE4WLG7VW3WWE iframe {
+    max-width: 300px; /* Adjust the width as needed */
+    width: 100%;
 }
 
 footer {
@@ -143,5 +158,11 @@ footer {
 @media (max-width: 768px) {
     .container {
         padding: 10px;
+        width: 95%;
+    }
+
+    #features ul {
+        padding-left: 0;
+        text-align: center;
     }
 }
